@@ -2,3 +2,36 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
 }
+
+header{
+  background-color: azure;
+}
+
+nav{
+  background-color:aquamarine;
+}
+
+main{
+  background-color: beige;
+  font-size: 100%;
+}
+
+footer{
+  background-color: antiquewhite;
+}
+
+li{
+  display:inline-block;
+    width: 27%;
+    text-align: center;
+}
+
+h1{
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  color: bisque;
+}
+
+p{
+  line-height: 150%;
+} 
