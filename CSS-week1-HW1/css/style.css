@@ -8,7 +8,13 @@ header{
 }
 
 nav{
+  display: inline-block;
+  width: 80%;
   background-color:aquamarine;
+}
+
+nav img{
+  width: 10%;
 }
 
 main{
@@ -20,11 +26,12 @@ footer{
   background-color: antiquewhite;
 }
 
-li{
+/*li{
   display:inline-block;
     width: 27%;
     text-align: center;
 }
+*/
 
 h1{
   text-align: left;
@@ -35,3 +42,8 @@ h1{
 p{
   line-height: 150%;
 } 
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
